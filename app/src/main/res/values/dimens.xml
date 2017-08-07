@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="slv_item_bg_btn_width">120dip</dimen>
+
+    <dimen name="slv_item_bg_btn_width_img">140dip</dimen>
+
+    <dimen name="slv_item_height">100dip</dimen>
+    <dimen name="slv_item_width">140dip</dimen>
+    <dimen name="slv_item_height2">120dip</dimen>
+</resources>

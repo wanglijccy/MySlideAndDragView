@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.demo.mylistview.DatabaseManageActivity">
+
+    <com.demo.mylistview.PointDragListView
+        android:id="@+id/point_drag_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:divider="@color/divide_gray_color"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@drawable/list_selector" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/holo_gray_light" />
+
+    <com.demo.mylistview.DescriptionDragListView
+        android:id="@+id/desc_drag_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:divider="@color/divide_gray_color"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@drawable/list_selector" />
+</LinearLayout>
